@@ -243,7 +243,7 @@ A3.MouseButton1Click:Connect(function()
     else A3.Text ="自动吸圈（关）"
     end
     while wait(0.5) do
-        if A3.Text =="自动买剑（开）" then
+        if A3.Text =="自动吸圈（开）" then
 			local children = workspace.Hoops:GetChildren()
             for i, child in ipairs(children) do
                if child.Name == "Hoop" then
